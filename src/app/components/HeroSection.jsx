@@ -55,7 +55,7 @@ const HeroSection = () => {
             <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center rounded-full overflow-hidden">
               <Image
                 src="/_util/Logo/Logo.png"
-                alt="hero image"
+                alt="Logo"
                 className="object-cover"
                 layout="fill"
               />
