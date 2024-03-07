@@ -57,7 +57,7 @@ const AboutSection = () => {
             technologies like React, Redux, Node.js, and Express to craft
             innovative applications. With expertise in PostgreSQL, Tableau,
             HTML, CSS, and Git, I continuously seek opportunities to broaden my
-            skill set. A collaborative team player, I'm eager to contribute to
+            skill set. A collaborative team player, I&apos;m eager to contribute to
             impactful projects and collaborate with others to achieve
             excellence.
           </p>
