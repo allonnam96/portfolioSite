@@ -1,9 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import GithubIcon from "../../../public/_util/iconSvg/github.svg";
-import LinkedinIcon from "../../../public/_util/iconSvg/linkedIn.svg";
 import Link from "next/link";
-import Image from "next/image";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -44,16 +41,24 @@ const EmailSection = () => {
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I&apos;m currently looking for new opportunities, my inbox is always open.
-          Whether you have a question or just want to say hi, I&apos;ll try my best
-          to get back to you!
+        I&apos;m currently looking for new opportunities, my inbox is always
+          open. Whether you have a question or just want to say hi, I&apos;ll
+          try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/allonnam96">
-            <Image src={GithubIcon} alt="Github" />
+          <Link href="https://github.com/allonnam96" passHref>
+            <img
+              src="/_util/iconSvg/icons8-github-64.png"
+              alt="GitHub"
+              style={{ cursor: "pointer" }}
+            />
           </Link>
-          <Link href="https://www.linkedin.com/in/allonnam/">
-            <Image src={LinkedinIcon} alt="LinkedIn" />
+          <Link href="https://www.linkedin.com/in/allonnam/" passHref>
+            <img
+              src="/_util/iconSvg/icons8-linkedin-64.png"
+              alt="LinkedIn"
+              style={{ cursor: "pointer" }}
+            />
           </Link>
         </div>
       </div>
